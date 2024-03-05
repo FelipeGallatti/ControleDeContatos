@@ -1,0 +1,36 @@
+﻿
+<div class="text-center">
+    <p class="display-4">Cadastrar contato</p>
+</div>
+
+  
+    <form>
+        <div class="form-group">
+            <label for="Nome">Nome</label>
+            <input type="text" class="form-control" placeholder="Digite o seu nome">
+        </div>
+        <br />
+    <div class="form-group">
+        <label for="Email">Email</label>
+        <input type="email" class="form-control" placeholder="Digite o seu Email">
+    </div>
+    <br />
+
+    <div class="form-group">
+        <label for="Celular">Celular</label>
+        <input type="text" class="form-control" placeholder="Digite o seu número de celular">
+    </div>
+    <br />
+
+        <div class="form-group">
+            <label for="Senha">Senha</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite sua senha">
+        </div>
+    <br />
+
+        <button type="submit" class="btn btn-primary d-block w-100">Entrar</button>
+        <br />
+        <a class="btn btn-secondary d-block w-100" asp-controller="Contatos" asp-action="Index" role="button">Voltar ao início</a>
+
+
+    </form>
